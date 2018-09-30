@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation]">
+  <listeners>
+    <listener class-name="Listener.TestListener"/>
+    <listener class-name="Listener.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="FirstTest.CNN">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- FirstTest.CNN -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->
